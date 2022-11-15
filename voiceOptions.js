@@ -1,0 +1,23 @@
+module.exports = [
+  'zh-CN-XiaochenNeural',
+  'zh-CN-XiaohanNeural',
+  'zh-CN-XiaomengNeural',
+  'zh-CN-XiaomoNeural',
+  'zh-CN-XiaoqiuNeural',
+  'zh-CN-XiaoruiNeural',
+  'zh-CN-XiaoshuangNeural',
+  'zh-CN-XiaoxiaoNeural',
+  'zh-CN-XiaoxuanNeural',
+  'zh-CN-XiaoyanNeural',
+  'zh-CN-XiaoyiNeural',
+  'zh-CN-XiaoyouNeural',
+  'zh-CN-XiaozhenNeural',
+  'zh-CN-YunfengNeural',
+  'zh-CN-YunhaoNeural',
+  'zh-CN-YunjianNeural',
+  'zh-CN-YunxiaNeural',
+  'zh-CN-YunxiNeural',
+  'zh-CN-YunyangNeural',
+  'zh-CN-YunyeNeural',
+  'zh-CN-YunzeNeural'
+];

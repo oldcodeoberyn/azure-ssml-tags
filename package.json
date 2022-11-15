@@ -1,0 +1,87 @@
+{
+  "name": "azure-ssml-tags",
+  "displayName": "AZURE-SSML-TAGS",
+  "description": "Surround texts selection with valid SSML tags. and provide options to select",
+  "repository": "https://github.com/oldcodeoberyn/azure-ssml-tags",
+	"publisher": "oldcodeoberyn",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+	"categories": [
+		"Formatters"
+	],
+	"activationEvents": [
+		"onCommand:extension.ssml-speak",
+		"onCommand:extension.ssml-emphasis",
+		"onCommand:extension.ssml-style",
+		"onCommand:extension.ssml-voice",
+		"onCommand:extension.ssml-break",
+		"onCommand:extension.ssml-lang",
+		"onCommand:extension.ssml-p",
+		"onCommand:extension.ssml-s",
+		"onCommand:extension.ssml-prosody",
+		"onCommand:extension.ssml-audio"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.ssml-speak",
+				"title": "SSML: speak"
+			},
+			{
+				"command": "extension.ssml-emphasis",
+				"title": "SSML: emphasis"
+			},
+			{
+				"command": "extension.ssml-style",
+				"title": "SSML: style"
+			},
+			{
+				"command": "extension.ssml-voice",
+				"title": "SSML: voice"
+			},
+			{
+				"command": "extension.ssml-break",
+				"title": "SSML: break"
+			},
+			{
+				"command": "extension.ssml-lang",
+				"title": "SSML: lang"
+			},
+			{
+				"command": "extension.ssml-p",
+				"title": "SSML: p"
+			},
+			{
+				"command": "extension.ssml-s",
+				"title": "SSML: s"
+			},
+			{
+				"command": "extension.ssml-prosody",
+				"title": "SSML: prosody"
+			},
+			{
+				"command": "extension.ssml-audio",
+				"title": "SSML: audio"
+			}
+		]
+	},
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.73.0",
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "16.x",
+    "eslint": "^8.26.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.8.4",
+    "@vscode/test-electron": "^2.2.0"
+  }
+}
